@@ -1,9 +1,13 @@
+alias vi="nvim"
+alias vim="nvim"
+
 alias pablo="cd && cd Edge/pablo"
 alias platform="cd && cd Edge/edge-platform"
 alias platform2="cd && cd Edge/edge-platform-2"
 alias stockx="cd && cd stockX"
 alias blog="cd && cd blog"
 alias notes="cd && cd notes"
+alias walc="cd && cd purps-turts/walc-admin"
 
 alias gateway="cd && cd Edge/edge-gateway"
 alias branches="git branch --sort=-committerdate"
@@ -19,8 +23,7 @@ alias lear="echo 'Nothing will come of nothing: speak again. - King Lear'"
 alias kubeprod='export KUBECONFIG=~/.kube/kubeconfig-stark-production'
 alias kubestaging='export KUBECONFIG=~/.kube/kubeconfig-arryn-staging-redux'
 alias kubemini='export KUBECONFIG=~/.kube/minikube'
-
-
+alias kubedocker='kubectl config use-context docker-desktop'
 
 alias u_find-and-replace=~/zsh/functions/find-and-replace
 alias u_remove-node-modules=~/zsh/functions/remove-node-modules
